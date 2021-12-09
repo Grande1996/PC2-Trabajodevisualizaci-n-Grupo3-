@@ -1,2 +1,2 @@
-# PC2-Trabajodevisualizaci-n-Grupo3-
+# PC2-visualización de datos(Grupo3)
 Visualización de datos
