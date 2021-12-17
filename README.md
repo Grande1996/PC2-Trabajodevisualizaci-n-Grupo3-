@@ -4,7 +4,7 @@ En el presente Proyecto  usaremos la visualización de datos para poder represen
 ## integrantes
 * Alexander Josue Grande Romero
 * Marcelo Jaramillo Alfaro
-*
+* Alessandro Zevallos Espinoza
 *
 *
 ## instrucciones del proyecto
