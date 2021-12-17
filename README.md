@@ -3,6 +3,7 @@
 En el presente Proyecto  usaremos la visualización de datos para poder representar de manera gráfica la información de los pokemon de la region kanto.
 ## integrantes
 * Alexander Josue Grande Romero
+* Marcelo Jaramillo Alfaro
 *
 *
 *
