@@ -6,7 +6,6 @@ En el presente Proyecto  usaremos la visualización de datos para poder represen
 * Marcelo Jaramillo Alfaro
 * Alessandro Zevallos Espinoza
 *
-*
 ## instrucciones del proyecto
 ### lectura del archivo json como un diccionario:
 ```py
