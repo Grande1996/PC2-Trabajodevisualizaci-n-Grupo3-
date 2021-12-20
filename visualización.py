@@ -68,6 +68,7 @@ def ejercicio3():
         a,b=coordenadas(j)# a= cordx[] ,  b= cordY[]
         plt.plot(a,b,'o',color="blue")
         print(j,coordenadas(j))
+    plt.title("Localización de pokemons con id primo ")
     plt.show()
 
 
@@ -90,7 +91,6 @@ def ejercicio4():
     #print(llaves)
     
     plt.pie(valores,labels=llaves, autopct="%1.1f%%",explode=desfase)
-    
     plt.title("Porcentaje de pokemons que usan o no caramelos")
     plt.show()
     
