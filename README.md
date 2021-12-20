@@ -38,7 +38,7 @@ plt.show()
 plt.scatter(<valores x>, <valores y>)
 plt.show()
 ```
-![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/figura_2.png)
+![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_2.png)
 
 ## Grafico en el mapa de Kanto
 
@@ -52,7 +52,7 @@ plt.show()
 ```
 
 
-![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/figura_3.png)
+![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_3.png)
 
 ## Grafico Pastel
 ```py
@@ -60,4 +60,4 @@ plt.pie(x=valores, labels=etiquetas, colors = colores)
 plt.show()
 ```
 
-![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/figura_4.png)
+![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_4.png)
