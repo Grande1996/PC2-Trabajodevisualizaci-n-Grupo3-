@@ -31,24 +31,13 @@ def numprimo(num):
     return resultado
 
 #funcion para encontrar las cordenadas de posición del pokemon con su id
-def localización(id):
+def coordenadas(id):
     pkmn=pokemonporid(id)
-    coordx, coordy = [], []
-    try:
-        coordx = pkmn["coordx"]
-        coordy = pkmn["coordy"]
-    except:
-        pass
-    return coordx, coordy
-
-
-
-
-
-primos=[]
-primos2=[]
-lista=[1,2,3,4,12,8,9,63,23,21]
-for i in lista:
-   if numprimo(i)==True:
-       primos.append(i)
-#print(primos)
+    a,b=[],[]
+    for x in pkmn:
+        if  x==("coordx" or "coordy"):
+            a=pkmn["coordx"]
+            b=pkmn["coordy"]
+        if x != ("coordx"or "coord"):
+           pass 
+    return a , b

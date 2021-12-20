@@ -1,7 +1,7 @@
 import matplotlib
 import matplotlib.pyplot as plt
 import json
-from funciones import  todoslospokemon,numprimo,pokemonporid,localización
+from funciones import  todoslospokemon,numprimo,coordenadas
 
 
 #funcion del ejercicio 1
@@ -25,7 +25,12 @@ def ejercicio1():
     llave=pokemons.keys()
     valores=pokemons.values()
     plt.bar(llave, valores, color = ['orangered', 'purple', 'red', 'teal', 'dodgerblue', 'greenyellow', 'lightgray', 'yellow', 'darkgoldenrod', 'sienna', 'fuchsia', 'maroon', 'cyan', 'slateblue', 'midnightblue','teal','peru'])
+    plt.xlabel("tipos de debilidades")
+    #titulo del grafico
+    plt.title("Numero de pokemons por debilidad")
+    plt.ylabel("cantidad de pokemons segun su tipo debilidad")
     plt.show()
+
 
 #funcion del ejercicio 2
 def ejercicio2():
@@ -44,11 +49,11 @@ def ejercicio2():
     print()
     print(len(lista_pesos))
     plt.scatter(lista_alturas,lista_pesos,marker='o',color="red")
-    plt.xlabel("Altura en cm")
-    plt.ylabel("Peso en kg ")
+    plt.xlabel("Altura de pokemon en cm")
+    plt.ylabel("Peso de pokemon en kg ")
     plt.show()
 
-
+#función del ejercicio 3
 def ejercicio3():
     image= plt.imread('Kanto.png')
     plt.imshow(image)
@@ -60,20 +65,22 @@ def ejercicio3():
             id_primos.append(pkmon["id"])
     print(id_primos)
     for j in id_primos:
-        a,b=localización(j)# a= cordx[] ,  b= cordY[]
+        a,b=coordenadas(j)# a= cordx[] ,  b= cordY[]
         plt.plot(a,b,'o',color="blue")
-        print(j,localización(j))
+        print(j,coordenadas(j))
     plt.show()
-   
+
+
+#fución del ejercicio4
 def ejercicio4():
     pkmons=todoslospokemon()
-    caramelos={"no usan caramelos":0,"si usan caramelos":0}
+    caramelos={"pokemons que no usan caramelos":0,"pokemons que usan caramelos":0}
     
     for x in pkmons:
         if x["candy"] =="None":
-            caramelos["no usan caramelos"] +=1
+            caramelos["pokemons que no usan caramelos"] +=1
         else:
-            caramelos["si usan caramelos"] +=1
+            caramelos["pokemons que usan caramelos"] +=1
     #print(caramelos)
     llaves=caramelos.keys()
     valores=caramelos.values()
@@ -82,8 +89,9 @@ def ejercicio4():
     #print()
     #print(llaves)
     
-    plt.pie(valores,labels=llaves, autopct="%0.1f %%",explode=desfase)
-    plt.axis('equal')
+    plt.pie(valores,labels=llaves, autopct="%1.1f%%",explode=desfase)
+    
+    plt.title("Porcentaje de pokemons que usan o no caramelos")
     plt.show()
     
          
