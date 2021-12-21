@@ -54,7 +54,7 @@ plt.show()
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_1.png)
 
 ## Scatterplot (Grafico de dispersion)
-  ***obs***:por tener muchos valores las lista solo se hara referencia a ellos en los valores X y Y
+  ***obs***: Por tener muchos valores las lista solo se hara referencia a ellos en los valores X y Y.
 
 ```py
 Valores x = lista de alturas
@@ -103,7 +103,7 @@ plt.show()
 ### obs:
   ***autopct***: Es un parámetro sirve para mostrar los valores porcentuales de las partes de la gráfica.
   
-  ***explode***: Es un parámetro opcional que resive en una lista o tupla con tantos valores como sectores haya. cada valor indica cuanto separar los pedazos del pastel respecto al   centro .
+  ***explode***: Parámetro opcional que resive en una lista o tupla con tantos valores como sectores haya. cada valor indica cuanto separar los pedazos del pastel respecto al   centro .
  
  ***colors***: Es un parámetro que resive una lista de colores.
   
