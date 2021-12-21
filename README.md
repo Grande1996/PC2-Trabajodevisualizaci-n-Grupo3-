@@ -96,6 +96,6 @@ plt.show()
 ### obs:
   ***autopct***: es un parámetro sirve para mostrar los valores porcentuales de las partes de la gráfica.
   
-  ***explode***: Es un parámetro opcional que consiste en una lista o tupla que indica cuanto separar los pedazos del pastel respecto al radio.
+  ***explode***: Es un parámetro opcional que resive en una lista o tupla con tantos valores como sectores haya. cada valor indica cuanto separar los pedazos del pastel respecto al   centro .
   
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_4.png)
