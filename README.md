@@ -25,9 +25,9 @@ pip install matplotlib
 ```
 ### Recordando algunas funciones de matplotlib
 ```py
-plt.xlabel(): Sirve para poner los nombres de los valores del eje X
+plt.xlabel(): Sirve para poner etiquetas de los valores del eje X
 
-plt.ylabel():Sirve para poner el nombre de los valores del eje Y
+plt.ylabel():Sirve para poner etiquetas de los valores del eje Y
 
 plt.title(): Sirve para poner el titulo del grafico
 ```
@@ -86,13 +86,13 @@ plt.show()
 
 caramelos = {"pokemons que no usan caramelos":0,"pokemons que usan caramelos":0}
 
-plt.pie(x=valores, labels=etiquetas(uso o no de caramelos), autopct="%1.1f%%",explode)
+plt.pie(x=valores, labels=etiquetas(uso o no de caramelos), autopct="%1.1f%%",explode= (0,0.1))
 plt.title("Porcentaje de pokemons que usan o no caramelos")
 plt.show()
 ```
 ### obs:
   ***autopct***: es un parámetro sirve para mostrar los valores porcentuales de las partes de la gráfica.
   
-  ***explode***: Es un parámetro opcional que consiste en una lista o tupla que indica cuanto separar los pedazos del pastel
+  ***explode***: Es un parámetro opcional que consiste en una lista o tupla que indica cuanto separar los pedazos del pastel respecto al radio.
   
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_4.png)
