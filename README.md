@@ -35,17 +35,21 @@ plt.title(): Sirve para poner el titulo del grafico
 
 ## Graficos
 ###  Grafico en barras
-***obs***:color es un parametro que acepta una lista de todos los tipos de colores.
+***obs***:
+***color***: Es un parámetro que resive una lista de colores.
 
 ```py
 colores=[lista de colores]
+keys=[lista de tipos de pokemon]
+values=[lista de la cantidad de pokemons que tienen un tipo de pokemon como debilidad]
+
 plt.bar(<keys>, <values>,color=colores)
 plt.title("Numero de pokemons por debilidad")
 plt.xlabel("tipos de debilidades")
 plt.ylabel("cantidad de pokemons segun su tipo debilidad")
 plt.show()
 ```
-***recordar***: Que la lista de los valores y las llaves son de igual longitud
+***recordar***: Que la lista de los valores y las llaves son de igual longitud.
 
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_1.png)
 
@@ -62,7 +66,7 @@ plt.ylabel("Peso de pokemon en kg ")
 plt.title("Grafico altura vs peso")
 plt.show()
 ```
-***recordar***: Que la lista de los valores  'x' y 'y' son de igual longitud
+***recordar***: Que la lista de los valores  'x' y 'y' son de igual longitud.
 
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_2.png)
 
@@ -92,13 +96,15 @@ colores=['yellowgreen','darkorchid']
 llaves=caramelos.keys()
 valores=caramelos.values()
 
-plt.pie(x=valores, labels=e,autopct="%1.1f%%",explode= (0.1,0),colors=colores)
+plt.pie(x=valores, labels=llaves,autopct="%1.1f%%",explode= (0.1,0),colors=colores)
 plt.title("Porcentaje de pokemons que usan o no caramelos")
 plt.show()
 ```
 ### obs:
-  ***autopct***: es un parámetro sirve para mostrar los valores porcentuales de las partes de la gráfica.
+  ***autopct***: Es un parámetro sirve para mostrar los valores porcentuales de las partes de la gráfica.
   
   ***explode***: Es un parámetro opcional que resive en una lista o tupla con tantos valores como sectores haya. cada valor indica cuanto separar los pedazos del pastel respecto al   centro .
+ 
+ ***colors***: Es un parámetro que resive una lista de colores.
   
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_4.png)
