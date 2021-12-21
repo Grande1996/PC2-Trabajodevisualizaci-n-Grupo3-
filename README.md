@@ -36,7 +36,7 @@ plt.show()
 ## Scatterplot 
 
 ```py
-plt.scatter(<valores x>, <valores y>)
+plt.scatter(<valores x>, <valores y>,'o',color="red")
 plt.show()
 ```
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_2.png)
