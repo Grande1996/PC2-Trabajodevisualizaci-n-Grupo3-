@@ -24,7 +24,7 @@ def ejercicio1():
     print(len(pokemons))
     llave=pokemons.keys()
     valores=pokemons.values()
-    plt.bar(llave, valores, color = ['orangered', 'purple', 'red', 'teal', 'dodgerblue', 'greenyellow', 'lightgray', 'yellow', 'darkgoldenrod', 'sienna', 'fuchsia', 'maroon', 'cyan', 'slateblue', 'midnightblue','teal','peru'])
+    plt.bar(llave, valores, color= ['orangered', 'purple', 'red', 'teal', 'dodgerblue', 'greenyellow', 'lightgray', 'yellow', 'darkgoldenrod', 'sienna', 'fuchsia', 'maroon', 'cyan', 'slateblue', 'midnightblue','teal','peru'])
     #nombre de los valores del eje x
     plt.xlabel("tipos de debilidades")
     #titulo del grafico

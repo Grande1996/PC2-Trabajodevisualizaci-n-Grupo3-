@@ -38,6 +38,6 @@ def coordenadas(id):
         if  x==("coordx" or "coordy"):
             a=pkmn["coordx"]
             b=pkmn["coordy"]
-        if x != ("coordx"or "coord"):
+        if x != ("coordx"or "coordy"):
            pass 
     return a , b
