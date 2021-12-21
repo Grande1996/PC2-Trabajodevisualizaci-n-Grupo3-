@@ -20,7 +20,7 @@ d = json.load(f)
 import matplotlib.pyplot as plt
 ```
 
-```py
+```sh
 pip install matplotlib
 ```
 ### Recordando algunas funciones de matplotlib
@@ -30,28 +30,28 @@ plt.xlabel(): Sirve para poner los nombres de los valores del eje X
 plt.ylabel():Sirve para poner el nombre de los valores del eje Y
 
 plt.title(): Sirve para poner el titulo del grafico
+```
 
-##Graficos 
-### Grafico de barras
+## Graficos
+###  Grafico en barras
 
 ```py
 plt.bar(<keys>, <values>,color="colores")
-plt.title("titulo del grafico")
+plt.title("Numero de pokemons por debilidad")
 plt.xlabel("tipos de debilidades")
 plt.ylabel("cantidad de pokemons segun su tipo debilidad")
 plt.show()
 ```
+***recordar***: Que la lista de los valores y las llaves son de igual longitud
 
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_1.png)
 
 ## Scatterplot (Grafico de dispersion)
-  ### obs:
-  por tener muchos valores las lista solo se hara referencia a ellos en los valores X y Y
+  ***obs***:por tener muchos valores las lista solo se hara referencia a ellos en los valores X y Y
 
 ```py
-Valores x= lista de alturas
-
-valores Y= lista de pesos
+Valores x = lista de alturas
+valores Y = lista de pesos
 
 plt.scatter(<valores x>, <valores y>,'o',color="red")
 plt.xlabel("Altura de pokemon en cm")
@@ -59,12 +59,15 @@ plt.ylabel("Peso de pokemon en kg ")
 plt.title("Grafico altura vs peso")
 plt.show()
 ```
+***recordar***: Que la lista de los valores  'x' y 'y' son de igual longitud
+
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_2.png)
 
 ## Grafico en el mapa de Kanto
 ```py
-valores x= coordenasX
-Valores y= CoordenasY
+
+valores x = coordenasX
+Valores y = CoordenasY
 
 im = plt.imread('kanto.png')
 implot = plt.imshow(im)
@@ -80,9 +83,11 @@ plt.show()
 
 ## Grafico Pastel
 ```py
-caramelos={"pokemons que no usan caramelos":0,"pokemons que usan caramelos":0}
 
-plt.pie(x=valores, labels=keys(uso o no de caramelos), autopct="%1.1f%%",explode)
+caramelos = {"pokemons que no usan caramelos":0,"pokemons que usan caramelos":0}
+
+plt.pie(x=valores, labels=etiquetas(uso o no de caramelos), autopct="%1.1f%%",explode)
+plt.title("Porcentaje de pokemons que usan o no caramelos")
 plt.show()
 ```
 ### obs:
