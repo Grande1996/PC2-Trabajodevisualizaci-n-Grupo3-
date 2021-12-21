@@ -88,7 +88,7 @@ def ejercicio4():
     #print(caramelos)
     llaves=caramelos.keys()
     valores=caramelos.values()
-    desfase=(0,0.1)
+    desfase=(0.1,0)
     #print(valores)
     #print()
     #print(llaves)
