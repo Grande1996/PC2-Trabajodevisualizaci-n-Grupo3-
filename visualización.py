@@ -25,9 +25,11 @@ def ejercicio1():
     llave=pokemons.keys()
     valores=pokemons.values()
     plt.bar(llave, valores, color = ['orangered', 'purple', 'red', 'teal', 'dodgerblue', 'greenyellow', 'lightgray', 'yellow', 'darkgoldenrod', 'sienna', 'fuchsia', 'maroon', 'cyan', 'slateblue', 'midnightblue','teal','peru'])
+    #nombre de los valores del eje x
     plt.xlabel("tipos de debilidades")
     #titulo del grafico
     plt.title("Numero de pokemons por debilidad")
+    #nombre de los valores de eje Y
     plt.ylabel("cantidad de pokemons segun su tipo debilidad")
     plt.show()
 
@@ -51,6 +53,7 @@ def ejercicio2():
     plt.scatter(lista_alturas,lista_pesos,marker='o',color="red")
     plt.xlabel("Altura de pokemon en cm")
     plt.ylabel("Peso de pokemon en kg ")
+    plt.title("Grafico altura vs peso")
     plt.show()
 
 #función del ejercicio 3
