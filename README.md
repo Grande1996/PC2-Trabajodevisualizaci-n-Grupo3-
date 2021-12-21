@@ -6,6 +6,7 @@ En el presente Proyecto  usaremos la visualización de datos para poder represen
 * Marcelo Jaramillo Alfaro
 * Alessandro Zevallos Espinoza
 * Maricielo Patricia Valverde Quispe	
+
 ## instrucciones del proyecto
 ### lectura del archivo json como un diccionario:
 ```py
@@ -22,12 +23,22 @@ import matplotlib.pyplot as plt
 ```py
 pip install matplotlib
 ```
+### Recordando algunas funciones de matplotlib
+```py
+plt.xlabel(): Sirve para poner los nombres de los valores del eje X
 
-## Grafico de barras
+plt.ylabel():Sirve para poner el nombre de los valores del eje Y
+
+plt.title(): Sirve para poner el titulo del grafico
+
+##Graficos 
+### Grafico de barras
 
 ```py
 plt.bar(<keys>, <values>,color="colores")
 plt.title("titulo del grafico")
+plt.xlabel("tipos de debilidades")
+plt.ylabel("cantidad de pokemons segun su tipo debilidad")
 plt.show()
 ```
 
@@ -43,6 +54,9 @@ Valores x= lista de alturas
 valores Y= lista de pesos
 
 plt.scatter(<valores x>, <valores y>,'o',color="red")
+plt.xlabel("Altura de pokemon en cm")
+plt.ylabel("Peso de pokemon en kg ")
+plt.title("Grafico altura vs peso")
 plt.show()
 ```
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_2.png)
@@ -57,6 +71,7 @@ implot = plt.imshow(im)
 ```
 ```py
 plt.plot(<Valores x>, <Valores y>,'o',color="colores")
+plt.title("Localización de pokemons con id primo ")
 plt.show()
 ```
 
