@@ -27,6 +27,7 @@ pip install matplotlib
 
 ```py
 plt.bar(<keys>, <values>)
+plt.title("titulo del grafico")
 plt.show()
 ```
 
