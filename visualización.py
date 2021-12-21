@@ -88,12 +88,12 @@ def ejercicio4():
     #print(caramelos)
     llaves=caramelos.keys()
     valores=caramelos.values()
+    colores=['yellowgreen','darkorchid']
     desfase=(0.1,0)
     #print(valores)
     #print()
-    #print(llaves)
-    
-    plt.pie(valores,labels=llaves, autopct="%1.1f%%",explode=desfase)
+    #print(llaves)+
+    plt.pie(valores,labels=llaves, autopct="%1.1f%%",explode=desfase,colors=colores)
     plt.title("Porcentaje de pokemons que usan o no caramelos")
     plt.show()
     
