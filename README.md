@@ -26,14 +26,14 @@ pip install matplotlib
 ## Grafico de barras
 
 ```py
-plt.bar(<keys>, <values>)
+plt.bar(<keys>, <values>,color="colores")
 plt.title("titulo del grafico")
 plt.show()
 ```
 
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_1.png)
 
-## Scatterplot 
+## Scatterplot (Grafico de dispersion)
 
 ```py
 plt.scatter(<valores x>, <valores y>,'o',color="red")
@@ -48,7 +48,7 @@ im = plt.imread('kanto.png')
 implot = plt.imshow(im)
 ```
 ```py
-plt.plot()
+plt.plot(<Coordenada x>,<Coordenadas y>,'o',color="colores")
 plt.show()
 ```
 
