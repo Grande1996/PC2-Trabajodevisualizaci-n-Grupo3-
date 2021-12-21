@@ -48,7 +48,7 @@ im = plt.imread('kanto.png')
 implot = plt.imshow(im)
 ```
 ```py
-plt.plot(<Coordenada x>,<Coordenadas y>,'o',color="colores")
+plt.plot(<Valores x>,<Valores y>,'o',color="colores")
 plt.show()
 ```
 
