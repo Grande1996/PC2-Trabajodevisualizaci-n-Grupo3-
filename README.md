@@ -88,8 +88,11 @@ plt.show()
 ```py
 
 caramelos = {"pokemons que no usan caramelos":0,"pokemons que usan caramelos":0}
+colores=['yellowgreen','darkorchid']
+llaves=caramelos.keys()
+valores=caramelos.values()
 
-plt.pie(x=valores, labels=etiquetas(uso o no de caramelos), autopct="%1.1f%%",explode= (0.1,0),colors=colores)
+plt.pie(x=valores, labels=e,autopct="%1.1f%%",explode= (0.1,0),colors=colores)
 plt.title("Porcentaje de pokemons que usan o no caramelos")
 plt.show()
 ```
