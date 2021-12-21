@@ -6,7 +6,7 @@ En el presente Proyecto  usaremos la visualización de datos para poder represen
 * Marcelo Jaramillo Alfaro
 * Alessandro Zevallos Espinoza
 * Maricielo Patricia Valverde Quispe	
-## instrucciValverde Quispe, Maricielo Patricia	ones del proyecto
+## instrucciones del proyecto
 ### lectura del archivo json como un diccionario:
 ```py
 import json
