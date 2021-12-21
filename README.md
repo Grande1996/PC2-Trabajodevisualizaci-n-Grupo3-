@@ -34,32 +34,45 @@ plt.show()
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_1.png)
 
 ## Scatterplot (Grafico de dispersion)
+  ### obs:
+  por tener muchos valores las lista solo se hara referencia a ellos en los valores X y Y
 
 ```py
+Valores x= lista de alturas
+
+valores Y= lista de pesos
+
 plt.scatter(<valores x>, <valores y>,'o',color="red")
 plt.show()
 ```
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_2.png)
 
 ## Grafico en el mapa de Kanto
-
 ```py
+valores x= coordenasX
+Valores y= CoordenasY
+
 im = plt.imread('kanto.png')
 implot = plt.imshow(im)
 ```
 ```py
-plt.plot(<Valores x>,<Valores y>,'o',color="colores")
+plt.plot(<Valores x>, <Valores y>,'o',color="colores")
 plt.show()
 ```
+
 
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_3.png)
 
 ## Grafico Pastel
 ```py
-plt.pie(x=valores, labels=etiquetas, autopct="%1.1f%%",explode)
+caramelos={"pokemons que no usan caramelos":0,"pokemons que usan caramelos":0}
+
+plt.pie(x=valores, labels=keys(uso o no de caramelos), autopct="%1.1f%%",explode)
 plt.show()
 ```
 ### obs:
-  autopct es un parámetro sirve para indicar se van a mostrar los valores porcentuales de las partes de la gráfica.
+  ***autopct***: es un parámetro sirve para mostrar los valores porcentuales de las partes de la gráfica.
+  
+  ***explode***: Es un parámetro opcional que consiste en una lista o tupla que indica cuanto separar los pedazos del pastel
   
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_4.png)
