@@ -7,15 +7,15 @@ En el presente Proyecto  usaremos la visualización de datos para poder represen
 * Alessandro Zevallos Espinoza
 * Maricielo Patricia Valverde Quispe	
 
-## instrucciones del proyecto
-### lectura del archivo json como un diccionario:
+## Instrucciones del proyecto
+### Lectura del archivo json como un diccionario:
 ```py
 import json
 
 f = open('<pokemon>.json')
 d = json.load(f)
 ```
-### uso de la liberia matplotlib e instalación para visualizar los datos :
+### Recordando uso de la liberia matplotlib e instalación para visualizar los datos :
 ```py
 import matplotlib.pyplot as plt
 ```
@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 ```sh
 pip install matplotlib
 ```
+
 ### Recordando algunas funciones de matplotlib
 ```py
 plt.xlabel(): Sirve para poner etiquetas de los valores del eje X
@@ -34,9 +35,11 @@ plt.title(): Sirve para poner el titulo del grafico
 
 ## Graficos
 ###  Grafico en barras
+***obs***:color es un parametro que acepta una lista de todos los tipos de colores.
 
 ```py
-plt.bar(<keys>, <values>,color="colores")
+colores=[lista de colores]
+plt.bar(<keys>, <values>,color=colores)
 plt.title("Numero de pokemons por debilidad")
 plt.xlabel("tipos de debilidades")
 plt.ylabel("cantidad de pokemons segun su tipo debilidad")
@@ -86,7 +89,7 @@ plt.show()
 
 caramelos = {"pokemons que no usan caramelos":0,"pokemons que usan caramelos":0}
 
-plt.pie(x=valores, labels=etiquetas(uso o no de caramelos), autopct="%1.1f%%",explode= (0,0.1))
+plt.pie(x=valores, labels=etiquetas(uso o no de caramelos), autopct="%1.1f%%",explode= (0.1,0),colors=colores)
 plt.title("Porcentaje de pokemons que usan o no caramelos")
 plt.show()
 ```
