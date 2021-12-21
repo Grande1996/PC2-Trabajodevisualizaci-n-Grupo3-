@@ -5,13 +5,13 @@ En el presente Proyecto  usaremos la visualización de datos para poder represen
 * Alexander Josue Grande Romero
 * Marcelo Jaramillo Alfaro
 * Alessandro Zevallos Espinoza
-*
-## instrucciones del proyecto
+* Maricielo Patricia Valverde Quispe	
+## instrucciValverde Quispe, Maricielo Patricia	ones del proyecto
 ### lectura del archivo json como un diccionario:
 ```py
 import json
 
-f = open('<filename>.json')
+f = open('<pokemon>.json')
 d = json.load(f)
 ```
 ### uso de la liberia matplotlib e instalación para visualizar los datos :
@@ -51,13 +51,14 @@ plt.plot()
 plt.show()
 ```
 
-
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_3.png)
 
 ## Grafico Pastel
 ```py
-plt.pie(x=valores, labels=etiquetas, colors = colores)
+plt.pie(x=valores, labels=etiquetas, autopct="%1.1f%%",explode)
 plt.show()
 ```
-
+### obs:
+  autopct es un parámetro sirve para indicar se van a mostrar los valores porcentuales de las partes de la gráfica.
+  
 ![](https://github.com/Grande1996/PC2-Trabajodevisualizaci-n-Grupo3-/blob/main/Figure_4.png)
