@@ -1,7 +1,7 @@
 # PC2-visualización de datos(Grupo3)
 ## Visualización de datos.
 En el presente Proyecto  usaremos la visualización de datos para poder representar de manera gráfica la información de los pokemon de la region kanto.
-## integrantes
+## Integrantes:
 * Alexander Josue Grande Romero  (10)
 * Marcelo Jaramillo Alfaro       (10)
 * Alessandro Zevallos Espinoza   (10)
