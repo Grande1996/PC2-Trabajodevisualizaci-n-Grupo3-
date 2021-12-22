@@ -2,10 +2,10 @@
 ## Visualización de datos.
 En el presente Proyecto  usaremos la visualización de datos para poder representar de manera gráfica la información de los pokemon de la region kanto.
 ## integrantes
-* Alexander Josue Grande Romero
-* Marcelo Jaramillo Alfaro
-* Alessandro Zevallos Espinoza
-* Maricielo Patricia Valverde Quispe	
+* Alexander Josue Grande Romero  (10)
+* Marcelo Jaramillo Alfaro       (10)
+* Alessandro Zevallos Espinoza   (10)
+* Maricielo Patricia Valverde Quispe	 (10)
 
 ## Instrucciones del proyecto
 ### Lectura del archivo json como un diccionario:
